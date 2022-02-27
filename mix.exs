@@ -25,7 +25,7 @@ defmodule LoggerAmqpBackend.MixProject do
 
   defp deps do
     [
-      {:amqp, "~> 2.0"},
+      {:amqp, "~> 3.0"},
       {:jason, "~> 1.2"},
       {:ex_doc, "~> 0.19", only: :dev, runtime: false},
       {:mock, "~> 0.3.0", only: :test},
